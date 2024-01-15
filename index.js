@@ -56,11 +56,20 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
+  fs.writeFile(fileName, data, (err) =>
+    err ? console.error(err) : console.log("README.md generated successfully!")
+  );
 }
 
 // function to initialize program
-function init() {
-
+async function init() {
+  try {
+    const userResponses = await inquirer.prompt(questions);
+    const markdown = generateMarkdown(userResponses);
+    writeToFile("README.md", markdown);
+  } catch (error) {
+    console.error("Error initializing the application:", error);
+  }
 }
 
 // function call to initialize program
