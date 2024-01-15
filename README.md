@@ -1,8 +1,8 @@
-# Tets
+# project
 
 
   ## Description
-  jfjdhfjkhkfhdkfhkdhf
+  description
 
   ## Table of Contents
   - [Installation](#installation)
@@ -16,17 +16,19 @@
   {data.installation}
 
   ## Usage
-  hjhfjdhjfhd
+  priject
 
   ## License
-  BSD-3-Clause
+  ## License
+  Apache-2.0, GPL-3.0, BSD-3-Clause
+
 
   ## Contributing
-  vxvxvx
+  fdfdfd
 
   ## Tests
-  bbbbb
+  fdfdfd
 
   ## Questions
-  GitHub: [bbb](https://github.com/bbb)
-  Email: bbb  
+  GitHub: [n/a](https://github.com/n/a)
+  Email: n/a  

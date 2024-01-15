@@ -21,7 +21,9 @@ function generateMarkdown(data) {
   ${data.usage}
 
   ## License
-  ${data.license}
+  ## License
+  ${data.license && data.license.length > 0 ? data.license.join(', ') : 'None'}
+
 
   ## Contributing
   ${data.contributing}

@@ -13,7 +13,7 @@ const questions = [
   {
     type: "input",
     name: "description",
-    message: "Provide a description of your project."
+    message: "Provide a description of your project:"
   },
   {
     type: "input",
@@ -26,7 +26,7 @@ const questions = [
     message: "How do you use the project?"
   },
   {
-    type: "list",
+    type: "checkbox",
     name: "license",
     message: "Choose a license for your project:",
     choices: ["MIT", "Apache-2.0", "GPL-3.0", "BSD-3-Clause", "None"]
