@@ -20,7 +20,7 @@ function generateMarkdown(data) {
   ## Usage
   ${data.usage}
 
-  ## License
+
   ## License
   ${data.license && data.license.length > 0 ? data.license.join(', ') : 'None'}
 
