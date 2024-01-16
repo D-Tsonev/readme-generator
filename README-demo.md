@@ -20,7 +20,7 @@
 
 
   ## License
-  ![License](https://img.shields.io/badge/License-GPL-3.0-"blue".svg)
+  ![License](https://img.shields.io/badge/License-GPL_3.0-"blue".svg)
   
 
 
