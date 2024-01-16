@@ -22,7 +22,8 @@ function generateMarkdown(data) {
 
 
   ## License
-  ${data.license && data.license.length > 0 ? data.license.join(', ') : 'None'}
+  ![License](https://img.shields.io/badge/License-${data.license}-"blue".svg)
+  
 
 
   ## Contributing

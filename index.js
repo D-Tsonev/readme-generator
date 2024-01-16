@@ -26,10 +26,10 @@ const questions = [
     message: "How do you use the project?"
   },
   {
-    type: "checkbox",
+    type: "list",
     name: "license",
     message: "Choose a license for your project:",
-    choices: ["MIT", "Apache-2.0", "GPL-3.0", "BSD-3-Clause", "None"]
+    choices: ["MIT", "Apache_2.0", "GPL-3.0", "BSD-3-Clause", "None"]
   },
   {
     type: "input",
@@ -57,7 +57,7 @@ const questions = [
 // function to write README file
 function writeToFile(fileName, data) {
   fs.writeFile(fileName, data, (err) =>
-    err ? console.error(err) : console.log("README.md generated successfully!")
+    err ? console.error(err) : console.log("README.md generated!")
   );
 }
 
@@ -67,8 +67,8 @@ async function init() {
     const userResponses = await inquirer.prompt(questions);
     const markdown = generateMarkdown(userResponses);
     writeToFile("README.md", markdown);
-  } catch (error) {
-    console.error("Error initializing the application:", error);
+  } catch (err) {
+    console.log("Error:", err);
   }
 }
 
