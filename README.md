@@ -35,7 +35,7 @@ For a sample README generated using the application, check the [Sample README](R
 Watch the [Walkthrough Video](https://drive.google.com/file/d/1qs52TpTL2LIqcH0w0eh7sRh3F2eSKVaV/view?usp=drive_link) to see how to use the application and understand its functionality.
 
 
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+
 
 ## GitHub Repository
 
